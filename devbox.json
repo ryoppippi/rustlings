@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "cargo@latest",
+    "rust-analyzer@latest",
+    "cargo-watch@latest",
+    "libiconv@latest",
+    "rustlings@latest"
+  ],
+  "shell": {
+    "init_hook": [],
+    "scripts": {
+      "dev":     "cargo watch -x run",
+      "edit":    "$EDITOR",
+      "build":   "cargo build",
+      "release": "cargo build --release",
+      "test":    "cargo test"
+    }
+  }
+}

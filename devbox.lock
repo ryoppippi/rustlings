@@ -1,0 +1,233 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "cargo-watch@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#cargo-watch",
+      "source": "devbox-search",
+      "version": "8.5.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cjks5sdy8iai8g35pdazrwzij97pa4c8-cargo-watch-8.5.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cjks5sdy8iai8g35pdazrwzij97pa4c8-cargo-watch-8.5.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vw0ma819kgl6c2fzc7lrhk71likjq8qy-cargo-watch-8.5.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vw0ma819kgl6c2fzc7lrhk71likjq8qy-cargo-watch-8.5.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/scky3b4zhh7prjwmwlmslj9ayrg8x8iq-cargo-watch-8.5.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/scky3b4zhh7prjwmwlmslj9ayrg8x8iq-cargo-watch-8.5.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qz6g9hf8c8gzrbd1a2kq5pz6bwcqx54k-cargo-watch-8.5.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qz6g9hf8c8gzrbd1a2kq5pz6bwcqx54k-cargo-watch-8.5.2"
+        }
+      }
+    },
+    "cargo@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#cargo",
+      "source": "devbox-search",
+      "version": "1.80.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0lbvfnmkjs3v53i0wyc1y3ll7y2b5ily-cargo-1.80.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0lbvfnmkjs3v53i0wyc1y3ll7y2b5ily-cargo-1.80.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ga83ccx89iqf179c2vkysrrpfq5r8aj0-cargo-1.80.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ga83ccx89iqf179c2vkysrrpfq5r8aj0-cargo-1.80.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8hnj7cvcarbk2vi2p7w1ndpw29a83gkz-cargo-1.80.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8hnj7cvcarbk2vi2p7w1ndpw29a83gkz-cargo-1.80.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8k428qrvnnfg91v6qcvkjm5dpgrgig49-cargo-1.80.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8k428qrvnnfg91v6qcvkjm5dpgrgig49-cargo-1.80.1"
+        }
+      }
+    },
+    "libiconv@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#libiconv",
+      "source": "devbox-search",
+      "version": "99",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mhliicfd4zgfypqwz1wkdfrfid3lvwmz-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/m1bp289v8nwaygr7wfqpv82nxxlcz704-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/mhliicfd4zgfypqwz1wkdfrfid3lvwmz-libiconv-99"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qqyrsbfv07pq1a6q55dscrkcgbxlsyxc-libiconv-99",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/1pp8q7n8n7wkzh9q02bi3pn2367d107c-libiconv-99-dev"
+            }
+          ],
+          "store_path": "/nix/store/qqyrsbfv07pq1a6q55dscrkcgbxlsyxc-libiconv-99"
+        }
+      }
+    },
+    "rust-analyzer@latest": {
+      "last_modified": "2024-09-07T06:00:21Z",
+      "resolved": "github:NixOS/nixpkgs/29cca090417df03e6d1928d99f77e8e81c74c3fa#rust-analyzer",
+      "source": "devbox-search",
+      "version": "2024-09-02",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w30am1wlxx7q90f7i5i352zyfr43kvap-rust-analyzer-2024-09-02",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w30am1wlxx7q90f7i5i352zyfr43kvap-rust-analyzer-2024-09-02"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l4nssaf31rqsmb2gix2j6mr642nqj8a7-rust-analyzer-2024-09-02",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l4nssaf31rqsmb2gix2j6mr642nqj8a7-rust-analyzer-2024-09-02"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nrbxnyzjg0rq0j8fm9apjxcg7any1w2l-rust-analyzer-2024-09-02",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nrbxnyzjg0rq0j8fm9apjxcg7any1w2l-rust-analyzer-2024-09-02"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0i9rdbihgwbiijpmdg918gc0zi51mbg6-rust-analyzer-2024-09-02",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0i9rdbihgwbiijpmdg918gc0zi51mbg6-rust-analyzer-2024-09-02"
+        }
+      }
+    },
+    "rustlings@latest": {
+      "last_modified": "2024-09-09T19:32:08Z",
+      "resolved": "github:NixOS/nixpkgs/5775c2583f1801df7b790bf7f7d710a19bac66f4#rustlings",
+      "source": "devbox-search",
+      "version": "6.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mfcwl1smfqnkwr63pdj03nhq9zkplwhp-rustlings-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mfcwl1smfqnkwr63pdj03nhq9zkplwhp-rustlings-6.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/935lxgb0j4my1wp3lgiprbvh8p4nha3w-rustlings-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/935lxgb0j4my1wp3lgiprbvh8p4nha3w-rustlings-6.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r7m0rp63dhm9grwq4fakrqs6p59q66qs-rustlings-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r7m0rp63dhm9grwq4fakrqs6p59q66qs-rustlings-6.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/68n54i1281762jfz0xsz4gvd5apfyww2-rustlings-6.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/68n54i1281762jfz0xsz4gvd5apfyww2-rustlings-6.3.0"
+        }
+      }
+    }
+  }
+}
