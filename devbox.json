@@ -10,11 +10,8 @@
   "shell": {
     "init_hook": [],
     "scripts": {
-      "dev":     "cargo watch -x run",
-      "edit":    "$EDITOR",
-      "build":   "cargo build",
-      "release": "cargo build --release",
-      "test":    "cargo test"
+      "edit": "$EDITOR",
+      "dev": "rustlings"
     }
   }
 }
