@@ -1,54 +1,6 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "cargo-watch@latest": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#cargo-watch",
-      "source": "devbox-search",
-      "version": "8.5.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/cjks5sdy8iai8g35pdazrwzij97pa4c8-cargo-watch-8.5.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/cjks5sdy8iai8g35pdazrwzij97pa4c8-cargo-watch-8.5.2"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/vw0ma819kgl6c2fzc7lrhk71likjq8qy-cargo-watch-8.5.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/vw0ma819kgl6c2fzc7lrhk71likjq8qy-cargo-watch-8.5.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/scky3b4zhh7prjwmwlmslj9ayrg8x8iq-cargo-watch-8.5.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/scky3b4zhh7prjwmwlmslj9ayrg8x8iq-cargo-watch-8.5.2"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/qz6g9hf8c8gzrbd1a2kq5pz6bwcqx54k-cargo-watch-8.5.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/qz6g9hf8c8gzrbd1a2kq5pz6bwcqx54k-cargo-watch-8.5.2"
-        }
-      }
-    },
     "cargo@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
       "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#cargo",
@@ -94,42 +46,6 @@
             }
           ],
           "store_path": "/nix/store/8k428qrvnnfg91v6qcvkjm5dpgrgig49-cargo-1.80.1"
-        }
-      }
-    },
-    "libiconv@latest": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#libiconv",
-      "source": "devbox-search",
-      "version": "99",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/mhliicfd4zgfypqwz1wkdfrfid3lvwmz-libiconv-99",
-              "default": true
-            },
-            {
-              "name": "dev",
-              "path": "/nix/store/m1bp289v8nwaygr7wfqpv82nxxlcz704-libiconv-99-dev"
-            }
-          ],
-          "store_path": "/nix/store/mhliicfd4zgfypqwz1wkdfrfid3lvwmz-libiconv-99"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/qqyrsbfv07pq1a6q55dscrkcgbxlsyxc-libiconv-99",
-              "default": true
-            },
-            {
-              "name": "dev",
-              "path": "/nix/store/1pp8q7n8n7wkzh9q02bi3pn2367d107c-libiconv-99-dev"
-            }
-          ],
-          "store_path": "/nix/store/qqyrsbfv07pq1a6q55dscrkcgbxlsyxc-libiconv-99"
         }
       }
     },

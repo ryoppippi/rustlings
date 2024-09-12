@@ -3,12 +3,14 @@
   "packages": [
     "cargo@latest",
     "rust-analyzer@latest",
-    "cargo-watch@latest",
-    "libiconv@latest",
     "rustlings@latest"
   ],
   "shell": {
-    "init_hook": [],
+    "init_hook": [
+      "echo 'cargo'",
+      "which cargo",
+      "cargo --version"
+    ],
     "scripts": {
       "edit": "$EDITOR",
       "dev": "rustlings"
